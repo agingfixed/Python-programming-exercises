@@ -1,56 +1,21 @@
 
-Grade A == Did good, do not revist 
-Grade B or lower Revisit in future (after completion of this entir program)
+Grade != A (Review after I am done with all these questions)
+Grade = A (Question is done and pushed into git repository)
+
 
 Question 1 
 Level 1
 Grade != A
+Time taken = too long
+Notes: Reviw methods
 
-Question:
-Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
-between 2000 and 3200 (both included).
-The numbers obtained should be printed in a comma-separated sequence on a single line.
-
-Hints: 
-Consider use range(#begin, #end) method
-
-# I did low ok
-
-Solution:
-l=[]
-for i in range(2000, 3201):
-    if (i%7==0) and (i%5!=0):
-        l.append(str(i))
-
-print ','.join(l)
-#----------------------------------------#
-
-#----------------------------------------#
 Question 2
 Level 1
+Grade != A
+Time taken = too long
+Notes: Great insight into recursive use of a defined function (allows for me to think differently)
 
-Question:
-Write a program which can compute the factorial of a given numbers.
-The results should be printed in a comma-separated sequence on a single line.
-Suppose the following input is supplied to the program:
-8
-Then, the output should be:
-40320
 
-Hints:
-In case of input data being supplied to the question, it should be assumed to be a console input.
-
-Solution:
-def fact(x):
-    if x == 0:
-        return 1
-    return x * fact(x - 1)
-
-x=int(raw_input())
-print fact(x)
-#----------------------------------------#
-
-#----------------------------------------#
 Question 3
 Level 1
 
